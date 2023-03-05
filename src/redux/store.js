@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 import { contactsApi } from './contacts/contacts-slice';
 import filterReducer from './filter/filter-slice';
 
